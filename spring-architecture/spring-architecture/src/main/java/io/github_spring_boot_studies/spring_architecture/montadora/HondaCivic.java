@@ -9,7 +9,7 @@ public class HondaCivic extends Car {
         setModel("Sedan");
         setColor(Color.BLACK);
         setPrice(78.000);
-        setMotor(Automaker.HONDA);
+        setAutomaker(Automaker.HONDA);
     }
 
 }

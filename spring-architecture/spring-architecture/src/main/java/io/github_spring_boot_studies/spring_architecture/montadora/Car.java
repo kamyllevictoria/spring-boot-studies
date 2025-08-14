@@ -18,6 +18,7 @@ public class Car {
     }
 
     public Car(Engine engine) {
+        this.engine = engine;
     }
 
     public Car() {
@@ -64,10 +65,24 @@ public class Car {
         this.automaker = automaker;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "model='" + model + '\'' +
+                ", color=" + color +
+                ", price=" + price +
+                ", engine=" + engine +
+                ", automaker=" + automaker +
+                '}';
+    }
+
     public CarStatus getIgnite(CarKey carKey){
         if(carKey.getAutomaker() != this.automaker){
-            return new CarStatus("Isnt possible to ignite the car with this key");
+            return new CarStatus("Isnt possible to ignite the car with this key",
+                    null);
         }
-        return new CarStatus("Running with engine:" + engine);
+        return new CarStatus("Running with engine:",this.engine);
     }
+
+
 }

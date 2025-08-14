@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f053fc0d-fa01-4c46-99c5-9bd8fed1537a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../teste/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/CarStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/CarStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/HondaCivic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/HondaCivic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/TypeCarMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/TypeCarMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/api/TestFabricController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/api/TestFabricController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/configuration/AutomakerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/configuration/AutomakerConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
         <option value="Enum" />
         <option value="Class" />
         <option value="Record" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -49,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application.executor": "Run",
     "Application.SpringArchitectureApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -73,7 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpringArchitectureApplication" />
+        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -87,5 +96,24 @@
       <updated>1754932223329</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Car.java</url>
+          <properties class="io.github_spring_boot_studies.spring_architecture.montadora.Car">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Car.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
