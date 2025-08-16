@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f053fc0d-fa01-4c46-99c5-9bd8fed1537a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/CarStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/CarStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/HondaCivic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/HondaCivic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/TypeCarMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/TypeCarMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/api/TestFabricController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/api/TestFabricController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/configuration/AutomakerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-architecture/src/main/java/io/github_spring_boot_studies/spring_architecture/montadora/configuration/AutomakerConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +16,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Record" />
         <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
