@@ -1,0 +1,25 @@
+create table author(
+	id uuid not null primary key,
+	name varchar(100) not null,
+	birth_date date not null,
+	nationality varchar(50) not null
+);
+
+select * from author
+
+create table book(
+	id uuid not null primary key,
+	isbn varchar(20) not null,
+	tittle varchar(150) not null,
+	publication_date date not null,
+	gender varchar(50) not null,
+	price numeric not null,
+	pages numeric(18,2) not null,
+	id_author uuid not null references author(id),
+
+	CONSTRAINT chk_gender CHECK (
+    	gender IN ('Science Fiction', 'Fantasy', 'Romance', 'Thriller', 'Horror', 'Mystery', 'Non-fiction', 'Poetry', 'Adventure', 'Historical Fiction')
+	)
+)
+
+select * from book
