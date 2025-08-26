@@ -1,14 +1,13 @@
 package com.example.libraryApi.model;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.UUID;
 
-@Getter
-@Setter
+@Data
 @Entity
 @Table(name = "author", schema = "public")
 public class Author {
@@ -25,4 +24,18 @@ public class Author {
 
     @Column(name = "nationality", length = 50, nullable = false)
     private String nationality;
+
+    @OneToMany(mappedBy = "author") //um autor tem muitos livros
+    private List<Book> books;
+
+    @Deprecated
+    public Author(){
+
+    }
+    public Author(UUID id, String name, LocalDate dateBirth, String nationality) {
+        this.id = id;
+        this.name = name;
+        this.dateBirth = dateBirth;
+        this.nationality = nationality;
+    }
 }

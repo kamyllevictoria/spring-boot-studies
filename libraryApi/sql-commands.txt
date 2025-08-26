@@ -18,7 +18,7 @@ create table book(
 	id_author uuid not null references author(id),
 
 	CONSTRAINT chk_gender CHECK (
-    	gender IN ('Science Fiction', 'Fantasy', 'Romance', 'Thriller', 'Horror', 'Mystery', 'Non-fiction', 'Poetry', 'Adventure', 'Historical Fiction')
+    	gender IN ('SCIENCEFICTION', 'FANTASY', 'ROMANCE', 'THRILLER', 'HORROR', 'MYSTERY', 'NONFICTION', 'POETRY', 'ADVENTURE', 'HISTORICALFICTION')
 	)
 )
 
